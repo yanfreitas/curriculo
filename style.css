@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+table#tabela {
+    border: 1px solid black;
+}
