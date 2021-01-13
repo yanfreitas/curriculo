@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
 table#tabela {
+    text-align: center;
     border: 1px solid black;
 }
 
 table#tabela td {
     border: 1px solid black;
+}
+
+img#minhafoto {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    padding: 0px;
 }
