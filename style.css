@@ -3,3 +3,7 @@
 table#tabela {
     border: 1px solid black;
 }
+
+table#tabela td {
+    border: 1px solid black;
+}
