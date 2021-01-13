@@ -1,12 +1,37 @@
 @charset "UTF-8";
 
+body {
+    color: black;
+    background-color: rgb(202, 250, 218);
+}
+
+div#interface {
+    width: 900px;
+    margin: -22px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 table#tabela {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #606060;
+    border-spacing: 0px;
 }
 
 table#tabela td {
-    border: 1px solid black;
+    border: 1px solid #8b8b8b;
+}
+
+table#tabela td.cole {
+    color: white;
+    background-color: #8d8b8b;
+    font-weight: bolder;
+}
+
+table#tabela td.cold {
+    color: black;
+    background-color: #e2f1dc;
 }
 
 img#minhafoto {
