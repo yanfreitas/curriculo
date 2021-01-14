@@ -6,17 +6,33 @@ body {
 }
 
 div#interface {
-    width: 900px;
+    width: 700px;
     margin: -22px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+    text-align: justify;
+}
+
+header#cabecalho h1 {
+    margin-bottom: 0px;
+}
+
+section#sec {
+    display: inline-block;
+    border-top: 1px solid #606060;
+    margin-top: 10px;
 }
 
 table#tabela {
+    width: 450px;
     text-align: center;
     border: 1px solid #606060;
     border-spacing: 0px;
+    margin-top: 20px;
 }
 
 table#tabela td {
@@ -38,6 +54,7 @@ img#minhafoto {
     float: left;
     width: 200px;
     height: 200px;
-    margin-right: 10px;
+    margin-right: 30px;
     padding: 0px;
+    margin-top: 0px;
 }
